@@ -1,10 +1,15 @@
 {
-  "name": "courier-tracking-couriers-please",
+  "name": "courier_tracking_couriers_please",
   "version": "0.0.1",
   "description": "Courier tracking from provided connote for Couriers Please",
   "main": "index.js",
   "author": "Rob Zolkos <rob@zolkos.com> (http://zolkos.com)",
   "license": "MIT",
+  "keywords": ["couriers", "shipping", "dispatch", "couriers please"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robzolkos/courier_tracking_couriers_please.git"
+  },
   "dependencies": {
     "courier_finder": "^0.0.2",
     "lodash.isequal": "^4.5.0",
