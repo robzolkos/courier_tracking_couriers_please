@@ -2,6 +2,8 @@
 
 Gets tracking information for a Couriers Please connote and returns normalized json response.
 
+[![Build Status](https://travis-ci.org/robzolkos/courier_tracking_couriers_please.svg?branch=master)](https://travis-ci.org/robzolkos/courier_tracking_couriers_please)
+
 #### Usage
 
 ```javascript
