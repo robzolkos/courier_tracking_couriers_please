@@ -1,6 +1,6 @@
 {
   "name": "courier_tracking_couriers_please",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Courier tracking from provided connote for Couriers Please",
   "main": "index.js",
   "author": "Rob Zolkos <rob@zolkos.com> (http://zolkos.com)",
