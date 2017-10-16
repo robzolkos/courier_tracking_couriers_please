@@ -4,6 +4,7 @@ const isEqual = require("lodash.isequal");
 const has_scans = require("./scan_check");
 const parseStatus = require("./parseStatus");
 const formatDate = require("./formatDate");
+const courier_finder = require("courier_finder");
 
 function get_connote(res) {
   try {
@@ -117,6 +118,7 @@ function transform(res) {
     delivered: delivered,
     deliveredAt: deliveredAt,
     signature: image_url,
+    trackingLink: courier_finder(get_connote(res)).tracking_link,
     activity: trackingInfo
   };
 
