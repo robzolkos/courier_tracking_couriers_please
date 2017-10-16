@@ -1,0 +1,21 @@
+{
+  "name": "courier-tracking-couriers-please",
+  "version": "0.0.1",
+  "description": "Courier tracking from provided connote for Couriers Please",
+  "main": "index.js",
+  "author": "Rob Zolkos <rob@zolkos.com> (http://zolkos.com)",
+  "license": "MIT",
+  "dependencies": {
+    "courier_finder": "^0.0.2",
+    "lodash.isequal": "^4.5.0",
+    "lodash.uniqwith": "^4.5.0",
+    "moment": "^2.18.1",
+    "request": "^2.82.0"
+  },
+  "devDependencies": {
+    "jest": "^21.2.1"
+  },
+  "scripts": {
+    "test": "jest --verbose --watch"
+  }
+}
