@@ -41,27 +41,32 @@ A valid result will return a response like
     activity: [{
             date: 'Sep 27, 2017',
             time: '3:16pm',
-            action: 'Goods delivered: Signed for by:ROB'
+            action: 'Goods delivered: Signed for by:ROB',
+            location: 'Australia'
         },
         {
             date: 'Sep 27, 2017',
             time: '12:00pm',
-            action: 'On-board for delivery'
+            action: 'On-board for delivery',
+            location: 'Australia'
         },
         {
             date: 'Sep 27, 2017',
             time: '5:41am',
-            action: 'Arrive at destination depot in transit'
+            action: 'Arrive at destination depot in transit',
+            location: 'Australia'
         },
         {
             date: 'Sep 25, 2017',
             time: '11:24am',
-            action: 'Transfer to new depot'
+            action: 'Transfer to new depot',
+            location: 'Australia'
         },
         {
             date: 'Sep 25, 2017',
             time: '10:50am',
-            action: 'Picked Up'
+            action: 'Picked Up',
+            location: 'Australia'
         }
     ]
 }
