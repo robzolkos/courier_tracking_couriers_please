@@ -83,7 +83,8 @@ function transform(res) {
         date: isoDate.date,
         time: isoDate.time,
         value: isoDate.value,
-        action: parseAction(info.action.trim())
+        action: parseAction(info.action.trim()),
+        location: "Australia"
       };
       if (info.action.indexOf("Picked Up") != -1) {
         pickedupAt = { date: isoDate.date, time: isoDate.time };
