@@ -8,7 +8,7 @@ function has_scans(res) {
     }
     return true;
   } catch (e) {
-    return false;
+    return true;
   }
 }
 

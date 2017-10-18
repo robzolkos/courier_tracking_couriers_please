@@ -6,9 +6,9 @@ describe("when scan has an action item with 'No scan events found'", () => {
   });
 });
 
-describe("when there is on items scanned in at all", () => {
-  it("returns false", () => {
-    expect(has_scans(scans_no_items)).toBe(false);
+describe("when there is no items scanned in at all", () => {
+  it("returns true", () => {
+    expect(has_scans(scans_no_items)).toBe(true);
   });
 });
 
